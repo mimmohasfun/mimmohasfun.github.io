@@ -92,37 +92,9 @@ body {
 		</style>
 		<link id="-gd-engine-icon" rel="icon" type="image/png" href="play_geo.icon.png" />
 <link rel="apple-touch-icon" href="play_geo.apple-touch-icon.png"/>
-
-	<style>
-		#rotate-hint {
-			display: none;
-			position: fixed;
-			inset: 0;
-			background: rgba(0, 0, 0, 0.92);
-			color: white;
-			font-family: sans-serif;
-			flex-direction: column;
-			align-items: center;
-			justify-content: center;
-			z-index: 9999;
-			text-align: center;
-			padding: 2rem;
-			gap: 1rem;
-		}
-		#rotate-hint .icon { font-size: 3.5rem; }
-		#rotate-hint p { margin: 0; font-size: 1.1rem; }
-		#rotate-hint .sub { opacity: 0.6; font-size: 0.85rem; }
-		@media (max-width: 900px) and (orientation: portrait) {
-			#rotate-hint { display: flex; }
-		}
-	</style>
+<style>#rotate-hint{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.92);color:white;font-family:sans-serif;flex-direction:column;align-items:center;justify-content:center;z-index:9999;text-align:center;padding:2rem;gap:1rem}#rotate-hint .icon{font-size:3.5rem}#rotate-hint p{margin:0;font-size:1.1rem}#rotate-hint .sub{opacity:0.6;font-size:0.85rem}@media(max-width:900px)and(orientation:portrait){#rotate-hint{display:flex}}</style><script>document.addEventListener('DOMContentLoaded',function(){var h=document.createElement('div');h.id='rotate-hint';h.innerHTML='<div class=\'icon\'>⟳</div><p>Ruota il dispositivo per giocare</p><p class=\'sub\'>Rotate your device to play</p>';document.body.prepend(h);});</script>
 	</head>
 	<body>
-		<div id="rotate-hint">
-			<div class="icon">⟳</div>
-			<p>Ruota il dispositivo per giocare</p>
-			<p class="sub">Rotate your device to play</p>
-		</div>
 		<canvas id="canvas">
 			Your browser does not support the canvas tag.
 		</canvas>
@@ -139,7 +111,7 @@ body {
 
 		<script src="play_geo.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"play_geo","experimentalVK":false,"fileSizes":{"play_geo.pck":1840064,"play_geo.wasm":35739700},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"play_geo","experimentalVK":true,"fileSizes":{"play_geo.pck":1840064,"play_geo.wasm":35739700},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
