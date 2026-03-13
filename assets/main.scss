@@ -7,3 +7,17 @@ $brand-color:      #2e8b8b;   // muted teal for links and accents
 $grey-color:       #7a7a72;   // slightly warm grey for metadata and borders
 
 @import "minima";
+
+.wrapper {
+  max-width: min(1000px, calc(100% - 60px));
+}
+
+body {
+  background:
+    linear-gradient(rgba(249, 249, 246, 0.82), rgba(249, 249, 246, 0.7)),
+    url('/assets/back_gipi.jpg') center / 100% 100% fixed no-repeat;
+}
+
+body.no-background {
+  background: $background-color;
+}
