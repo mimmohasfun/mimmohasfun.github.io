@@ -3,7 +3,7 @@
 
   {%- include head.html -%}
 
-  <body{% if page.no_background %} class="no-background"{% endif %}>
+  <body{% if page.no_background %} class="no-background"{% elsif page.background_image %} style="background-image: linear-gradient(rgba(249, 249, 246, 0.82), rgba(249, 249, 246, 0.7)), url('{{ page.background_image | relative_url }}'); background-size: 100% 100%; background-attachment: fixed;"{% endif %}>
 
     {%- include header.html -%}
 
