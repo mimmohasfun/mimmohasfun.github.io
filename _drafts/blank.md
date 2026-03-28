@@ -1,8 +1,14 @@
 ---
 layout: post
-title: "title"
-date: 2026-03-04
+title: "Impressioni su Rothko"
+date: 2026-03-17
 ---
 
-Stuff goes here
-Stuff goes here
+#Rothko a Firenze
+
+Finestre balconi bandiere finestrini di treno
+Cosa c'è dietro
+Prima miro picasso poi mondrian
+Sezione aurea
+Dentro e fuori
+I diversi palcoscenici
