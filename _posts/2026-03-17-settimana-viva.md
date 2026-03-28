@@ -20,7 +20,7 @@ I diversi palcoscenici
 
 # Abdellah Taia all'Institut Français (17 Marzo)
 
-Una posa un po' curiosa, dentro e fuori il sistema. Insistentemente torna su madre e sorelle. E su Insistentemente su omosessualità e identità e solitudine.
+Una posa un po' curiosa, dentro e fuori il sistema. Insistentemente torna su madre e sorelle. E su omosessualità e identità e solitudine.
 
 # Radio Argo Suite (21 Marzo)
 
